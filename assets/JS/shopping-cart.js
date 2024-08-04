@@ -88,6 +88,7 @@ const displayCart = () => {
       }
     });
 
+    
     removeIcon.addEventListener('click', () => {
         removeFromCart(product);
         tr.remove();
